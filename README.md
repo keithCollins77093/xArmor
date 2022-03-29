@@ -22,3 +22,20 @@ Linux hypocrisy or fraud in security implementation:
            federal government, that I know of, has investigated it, attempted to prosecute it, or tried
            to make a law requiring better security.
            YOU ARE NAKED AND UNDER A MICROSCOPE FACILITATED BY YOUR GOVERNMENTS. 
+
+
+My Solution:
+
+
+For read only copy protection to exist the operating system must implement the access and use meta data of files against any and all programs attempting to access or modify the file on any way.
+
+This requires all installed packages, libraries, or any kind of runnable object to carry an identifier. Each software object identifier then requires a list of access rule objects for each file it is allowed to access. An inverse of this map, one for each file listing the access permissions of each runnable object, is also useful.
+
+When a file access request is received by the O.S., the software object's identifier is received with it.  It's access rule list is checked to see if the file is on it and then whether the particular action requested is allowed.
+
+Only the root administrative user may modify access lists or the access rule object itself.
+
+When a file is read by an application, it's access list objects for the runnable objects in the application travels with the application' activities.  All file content buffers allowed for the programming language on the O.S. must implement this. Whenever the application tries to access any file to write or append to it, both files' rule lists and then entries are checked to determine if the action is allowed. 
+
+If the software object can create a new file, only the content file's protections are relevant. Where a software object can create a new file can be limited to an express set of paths, each of which can have its own access rule software object list. 
+
