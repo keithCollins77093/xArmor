@@ -42,3 +42,5 @@ When a file is read by an application, it's access list objects for the runnable
 
 If the software object can create a new file, only the content file's protections are relevant. Where a software object can create a new file can be limited to an express set of paths, each of which can have its own access rule software object list. 
 
+If you would like to support this project, you can contribute here:
+https://www.buymeacoffee.com/keithmichah
